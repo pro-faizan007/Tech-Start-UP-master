@@ -15,12 +15,12 @@
 }
 
 .logo{
-    width: 120px;
-    /* height: 30px; */
-    font-size: 20px;
+    width: 170px;
+    height: 30px; 
+    font-size: 15px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 20px;
+    padding-left: 30px;
     cursor: pointer;
 }
 
@@ -33,20 +33,20 @@
 }
 
 .menu{
-    width: 100%;
+    width: 110%;
 }
 
 .menu ul{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .menu ul li{
-    width: 120px;
-    list-style-position: inside;
-    align-items: initial;
+    width: 180px;
+    list-style-position: unset;
+    align-items: stretch;
     justify-content: flex-start;
-    padding: 30px;
+    padding: 10px;
     font-size: 15px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
